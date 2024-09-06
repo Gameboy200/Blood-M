@@ -12,7 +12,6 @@ key = 'url.key'
 api_url = ''
 BG = '___'
 mute = False
-##api_url = "https://testpmg.chickenkiller.com/api/v1/entries/sgv.json?count=1&token=max-009021062b4989e3"
 def read_blood(app):
     with open(key, 'r') as f:
         api_url = f.read().strip()
